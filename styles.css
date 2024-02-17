@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  border: solid;
+  border-color: black;
+  background-color: black;
+  height: 450px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.tela {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 40px;
+  height: 20%;
+}
+
+.tela input {
+  width: 70%;
+  font-size: 40px;
+  border: none;
+  margin-top: 30px;
+  color: rgb(243, 243, 243);
+  text-align: right;
+  background: black;
+}
+
+.linha1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+
+.botao0{
+  border-radius: 40px;
+  height: 50px;
+  width: 100px;
+  color: rgb(243, 243, 243);
+  font-family: monospace;
+  font-size: 22px;
+  border: none;
+  background: rgb(114, 113, 112);
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.botao{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-family: monospace;
+  font-size: 22px;
+  border: none;
+  background: rgb(202, 201, 200);
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.botao2{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: rgb(243, 243, 243);
+  font-family: monospace;
+  font-size: 22px;
+  border: none;
+  background: rgb(114, 113, 112);
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.botaovert{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-family: monospace;
+  font-size: 22px;
+  border: none;
+  color: rgb(243, 243, 243);
+  background: rgb(248, 175, 76);
+  cursor: pointer;
+  margin-top: 5px;
+
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul li{
+  list-style-type: none;
+
+  
+}
