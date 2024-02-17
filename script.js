@@ -20,7 +20,7 @@ function appendToDisplay(input) {
     colorReset();
   }
   display.value += input;
-  lastnum = parseFloat(display.value);  // Update lastnum with the result
+  lastnum = parseFloat(display.value); 
   if(sig){
     opform = true;
   }
